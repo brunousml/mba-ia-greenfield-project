@@ -122,6 +122,10 @@ npx playwright test                                   # end-to-end (no host, com
 
 Sufixos: `*.test.ts(x)` (unitário), `*.integration.test.ts(x)` (Route Handlers com MSW), `*.e2e-spec.ts` (Playwright). MSW intercepta as chamadas à API NestJS — os testes nunca batem no backend real.
 
+### Teste manual da API de vídeos (Fase 03)
+
+Para validar manualmente o preflight, a leitura e mídia e o fluxo de upload, siga o [roteiro de teste manual da API](https://github.com/brunousml/mba-ia-greenfield-project/blob/main/docs/phases/phase-03-videos/manual-api-test.md).
+
 ## ✅ Funcionalidades implementadas
 
 **Fase 01 — Configuração base** e **Fase 02 — Autenticação** estão concluídas (backend + frontend).
